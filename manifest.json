@@ -1,18 +1,22 @@
 {
-    "manifest_version": 2,
-    "name": "Tab Changer",
-    "version": "1.0",
-    "description": "Rename tabs persistently by right-clicking on the page or the tab strip.",
-    "permissions": ["tabs", "activeTab", "contextMenus", "storage"],
-    "background": {
-      "scripts": ["background.js"]
-    },
-    "content_scripts": [
-      {
-        "matches": ["<all_urls>"],
-        "js": ["content.js"],
-        "run_at": "document_end"
-      }
-    ]
-  }
-  
+  "manifest_version": 2,
+  "name": "Tab Renamer",
+  "version": "1.0",
+  "description": "Rename tabs and change the favicon icon border color",
+  "permissions": [
+    "tabs",
+    "activeTab",
+    "contextMenus",
+    "storage"
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "run_at": "document_end"
+    }
+  ]
+}
