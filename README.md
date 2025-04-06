@@ -1,6 +1,6 @@
 # Rename Tabs
 
-Lets you rename tabs persistently during your browsing session by right-clicking on either the tab strip or the page itself.  Allows color boarder around favicon.  
+Firefox Extension that lets you rename tabs persistently during your browsing session by right-clicking on either the tab strip or the page itself.  Allows color boarder around favicon.
 
 ## Features
 
@@ -18,7 +18,10 @@ Lets you rename tabs persistently during your browsing session by right-clicking
 - **storage:** Provides access to local storage so that custom tab titles can be saved and re-applied across navigations within the same tab.
 
 ## File Structure
-persistent-rename-tab
+dir
+
 ├── manifest.json
+
 ├── background.js
+
 └── content.js
