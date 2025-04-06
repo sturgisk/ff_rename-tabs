@@ -1,6 +1,6 @@
 {
     "manifest_version": 2,
-    "name": "Persistent Rename Tab (Per-Tab, Tab Context)",
+    "name": "Tab Changer",
     "version": "1.0",
     "description": "Rename tabs persistently by right-clicking on the page or the tab strip.",
     "permissions": ["tabs", "activeTab", "contextMenus", "storage"],
